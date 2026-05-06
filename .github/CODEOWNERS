@@ -1,0 +1,13 @@
+# Lines later in this file take precedence over earlier ones.
+
+# Default: maintainer reviews any PR that no other rule below catches.
+*                       @KakkoiDev
+
+# Sensitive paths: maintainer review required.
+/.github/               @KakkoiDev
+/CODEOWNERS             @KakkoiDev
+/.env*                  @KakkoiDev
+/infrastructure/        @KakkoiDev
+/deploy/                @KakkoiDev
+/auth/                  @KakkoiDev
+/**/auth/               @KakkoiDev
